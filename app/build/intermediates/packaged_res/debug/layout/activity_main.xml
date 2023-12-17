@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/id1"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:padding="20dp"
+        android:text="X's Turn"
+        android:textSize="60sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:onClick="click_btn1"
+                android:text="X "
+                android:textSize="48sp"
+                tools:layout_editor_absoluteX="48dp"
+                tools:layout_editor_absoluteY="66dp" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:onClick="click_btn2"
+                android:text=" "
+                android:textSize="48sp"
+                tools:layout_editor_absoluteX="151dp"
+                tools:layout_editor_absoluteY="66dp" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:onClick="click_btn3"
+                android:text=" "
+                android:textSize="48sp"
+                tools:layout_editor_absoluteX="245dp"
+                tools:layout_editor_absoluteY="66dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:onClick="click_btn4"
+                android:text=" "
+                android:textSize="48sp"
+                tools:layout_editor_absoluteX="48dp"
+                tools:layout_editor_absoluteY="121dp" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:onClick="click_btn5"
+                android:text=" "
+                android:textSize="48sp"
+                tools:layout_editor_absoluteX="151dp"
+                tools:layout_editor_absoluteY="128dp" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:onClick="click_btn6"
+                android:text=" "
+                android:textSize="48sp"
+                tools:layout_editor_absoluteX="245dp"
+                tools:layout_editor_absoluteY="128dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:onClick="click_btn7"
+                android:text=" "
+                android:textSize="48sp"
+                tools:layout_editor_absoluteX="48dp"
+                tools:layout_editor_absoluteY="188dp" />
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:onClick="click_btn8"
+                android:text=" "
+                android:textSize="48sp"
+                tools:layout_editor_absoluteX="160dp"
+                tools:layout_editor_absoluteY="188dp" />
+
+            <Button
+                android:id="@+id/btn9"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:onClick="click_btn9"
+                android:text=" "
+                android:textSize="48sp"
+                tools:layout_editor_absoluteX="266dp"
+                tools:layout_editor_absoluteY="188dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
